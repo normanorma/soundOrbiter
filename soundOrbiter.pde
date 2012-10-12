@@ -8,9 +8,11 @@ Minim minim;
 AudioInput in;
 
 soundStar[] stars = new soundStar[1];
-
+int timer;  // My new timer
 int sel = 0;
 
+//  This is the setup!
+//
 void setup(){
   size(800,600);
   smooth();
